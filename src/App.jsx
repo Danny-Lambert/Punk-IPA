@@ -2,7 +2,9 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 import SideBar from "./containers/SideBar/SideBar"
 import Dashboard from "./containers/Dashboard";
+import styles from "./App.module.scss";
 import SearchBar from './components/SearchBar';
+import beerIcon from "./images/beer.png";
 
 const App = (props) => {
 
@@ -34,7 +36,8 @@ const App = (props) => {
   }
   return (
     <div className="App">
-        <h1>Search for your favourite Beer below!</h1> 
+        <h1><img src = {beerIcon} alt = {"beericon"}/> Discover your new favourite BrewDog<img src = {beerIcon} alt = {"beericon"}/></h1>
+        <h2>Search for your favourite Beer below!</h2> 
         <>
         <SearchBar
           placeholder="Search for your favourite beer!"

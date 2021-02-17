@@ -2,18 +2,19 @@
 
 
 .cardFront {
-  margin-top:2%;
+  margin-bottom: 2%;
   // align-items: center;
-  color: darkblue;
+  color:rgb(19, 61, 75);
   justify-content: center;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(1, 3fr);
   // grid-column: 1fr;
   // padding: 5%;
-  border: 2px solid yellow;
+  border: 2px solid black;
   // size: 1px;
-  width: 50%;
-  margin-left: 30%;
+  width: 500px;
+  margin-left: 45%;
+  background-color: whitesmoke;
   
     &:hover{
     // background-color: black;
@@ -22,16 +23,37 @@
     // z-index: 100;
     border: 2px solid black;
     }   
-      .beer-image{
-        height:100%;
-        width:5%;
-        border: 2px solid red;
-      }
-}
+    
 
+img{
+  width: 20%;  
+  // height: 10%;
+  background-color: whitesmoke;
+  padding: 2%;
+}
 h2{
-  color: blue;
+  color:rgb(19, 61, 75);
+  font-size: 25px;
+  background-color: whitesmoke;
+  font-weight: bold;
 }
   p{
-    color: red;
+  color:rgb(19, 61, 75);
+    font-size: 15px;
+    background-color: whitesmoke;
   }
+  span{
+    background-color: whitesmoke;
+    color:rgb(19, 61, 75);
+    font-style: italic;
+    
+  }
+}
+.description{
+  color: pink;
+}
+.cardText{
+  margin: 2%;
+  background-color: whitesmoke;
+
+}
